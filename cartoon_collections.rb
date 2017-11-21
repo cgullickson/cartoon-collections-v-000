@@ -10,9 +10,9 @@ def summon_captain_planet (planeteer_calls)
   end
 end
 
-def long_planeteer_calls(array)
+def long_planeteer_calls (array)
   array.include? do |word|
-    word.size > 4
+    word.length > 4
   end
 end
 
